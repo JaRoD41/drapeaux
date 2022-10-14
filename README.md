@@ -1,3 +1,7 @@
+Application réalisée grâce à React js et Sass
+
+![Capture d’écran 2022-10-14 à 22 43 46](https://user-images.githubusercontent.com/67756654/195940649-fae3a214-3289-46f1-87ab-9c6a73e84827.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
