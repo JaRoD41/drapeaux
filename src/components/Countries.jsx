@@ -24,6 +24,7 @@ export default function Countries() {
 					defaultValue={rangeValue}
 					onChange={(e) => setRangeValue(e.target.value)}
 				/>
+				<span>Nbre de drapeaux: {rangeValue}</span>
 				{radios.map((continent) => (
 					<li key={continent}>
 						<input
@@ -39,7 +40,7 @@ export default function Countries() {
 			</ul>
 			{selectedRadio && (
 				<button onClick={() => setSelectedRadio("")}>
-					Annuler la recherche
+					Supprimer le filtre
 				</button>
 			)}
 			<ul>

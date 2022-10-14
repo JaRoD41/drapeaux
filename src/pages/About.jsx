@@ -7,14 +7,10 @@ export default function About() {
 		<div>
 			<Logo />
 			<Navigation />
-			<h1>A propos</h1>
+			<h1>À propos</h1>
+			<br />
 			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel similique
-				recusandae, minima quas aliquid placeat ut enim veritatis beatae nobis
-				odio quod laboriosam consectetur magnam nulla praesentium obcaecati
-				alias! At officia ab reiciendis voluptas, nobis voluptatum assumenda
-				modi sequi magni quidem molestias eligendi, sapiente, repudiandae autem
-				doloremque placeat temporibus voluptatibus?
+				Cette application a été réalisée en React JS et utilise le framework Sass pour le style.
 			</p>
 		</div>
 	);

@@ -6,10 +6,10 @@ export default function Navigation() {
 		<div className="navigation">
 			<ul>
 				<NavLink to="/" className={(nav) => (nav.isActive ? "nav-active" : "")} end>
-					<li>accueil</li>
+					<li>Accueil</li>
 				</NavLink>
 				<NavLink to="/about" className={(nav) => (nav.isActive ? "nav-active" : "")}>
-					<li>à propos</li>
+					<li>À propos</li>
 				</NavLink>
 			</ul>
 		</div>
